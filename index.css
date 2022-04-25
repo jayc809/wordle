@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+}
+
+#grid {
+    position: absolute;
+    height: 790px;
+    width: 420px;
+    left: 50%;
+    margin-left: -250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.attempt {
+    position: absolute;
+    height: 80px;
+    width: 400px;
+    border: 1px solid white;
+}
+
+.letter {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border: 0.5px solid white;
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 80px;
+}
+
+h1 {
+    position: absolute;
+    height: 80px;
+    width: 420px;
+    margin: 0;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 80px;
+}
+
+#alphabet {
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    left: 80%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alphabet {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 50px;
+}
+
+.display-result {
+    position: absolute;
+    height: 250px;
+    width: 340px;
+    border: 1px solid white;
+    top: 44.5%;
+    margin-top: -126px;
+    left: 50%;
+    margin-left: -171px;
+    z-index: 10;
+}
+
+.display-result-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.925;
+}
+
+.display-result-content {
+    position: absolute;
+    width: 100%;
+    color: white;
+    white-space: pre-line;
+    text-align: center;
+    font-size: 35px;
+    z-index: 11;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.display-result-btn {
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-family: Times-Roman;
+    line-height: 50px;
+    z-index: 12;
+    font-size: 35px;
+    margin: 0;
+    bottom: 25px;
+    left: 50%;
+    margin-left: -86px;
+}
